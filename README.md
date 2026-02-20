@@ -32,16 +32,16 @@ Implementation: `src/rq2/`
 ---
 
 ## Repository Structure
+
+```
 src/
-rq1/ # Refactoring pattern mining (RQ1)
-rq2/ # Review analysis (RQ2)
+  rq1/        # Refactoring pattern mining (RQ1)
+  rq2/        # Review analysis (RQ2)
 
 results/
-rq1/ # Generated outputs for RQ1
-rq2/ # Generated outputs for RQ2
-
-
----
+  rq1/        # Generated outputs for RQ1
+  rq2/        # Generated outputs for RQ2
+```
 
 ## Dataset
 
