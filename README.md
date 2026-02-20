@@ -1,20 +1,34 @@
-# RQ2 — Review Analysis of AI-Generated Refactoring PRs
+# AI-Generated Refactoring Pull Requests — Replication Package
 
-This folder contains the implementation and analysis artifacts for **RQ2**, which studies how human reviewers evaluate AI-generated refactoring pull requests.
+This repository provides the replication package for our study on **AI-generated refactoring pull requests** in the AIDev dataset.
 
-## Contents
+The study investigates:
 
-- Scripts for review analysis
-- Taxonomy coding logic
-- Intermediate processing steps
-- Supporting utilities
+- how autonomous coding agents describe refactoring changes,
+- what refactoring transformation patterns they produce,
+- how human reviewers evaluate these pull requests,
+- and why many AI-generated refactorings are not integrated.
 
-## Outputs
+---
 
-Final tables and figures for RQ2 are stored under:
+## Research Questions
 
-results/rq2/
+### RQ1 — Refactoring Patterns
+Analyzes refactoring action verbs and transformation patterns used by AI agents and classifies pull requests into:
 
-## Notes
+- Internal quality attributes  
+- External quality attributes  
+- Code smells  
 
-The original experimental materials were cleaned and reorganized for reproducibility.
+Implementation: `src/rq1/`
+
+---
+
+### RQ2 — Review Analysis
+Examines how human reviewers respond to AI-generated refactoring PRs using the Refactoring Review Taxonomy.
+
+Implementation: `src/rq2/`
+
+---
+
+## Repository Structure
