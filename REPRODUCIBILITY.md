@@ -1,8 +1,3 @@
-
----
-
-## 2) `REPRODUCIBILITY.md`
-```markdown
 # Reproducibility
 
 This repository enables partial and full reproduction of the analyses reported in the paper.
@@ -23,8 +18,9 @@ This repository contains the replication package for our study on AI-generated r
 - Python 3.10+
 - pandas
 - numpy
-- scikit-learn (optional, not required for the baseline scripts)
+- regex
 - matplotlib
+- tqdm
 
 ## Quick Run (sample)
 ```bash
