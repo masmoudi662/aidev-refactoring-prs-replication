@@ -52,9 +52,7 @@ discussion/
 ## Dataset
 
 We use the **AIDev** dataset of AI-generated pull requests.
-
-Due to size and licensing constraints, the full dataset is **not redistributed** in this repository.
-
+![Dataset](study_design/AIDEV_DATASET.png)
 See `data/README.md` for instructions.
 
 ---
