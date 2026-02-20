@@ -1,0 +1,27 @@
+# Reproducibility
+
+This repository contains the replication package for our study on AI-generated refactoring pull requests in the AIDev dataset.
+
+## Pipeline Overview
+
+1. Normalize pull requests and reviews
+2. Extract refactoring action verbs
+3. Classify PRs into:
+   - Internal quality attributes
+   - External quality attributes
+   - Code smells
+4. Apply Refactoring Review Taxonomy
+5. Generate tables and figures
+
+## Environment
+
+- Python 3.10+
+- pandas
+- numpy
+- scikit-learn
+
+## Quick Run (sample)
+
+```bash
+pip install -r env/requirements.txt
+bash scripts/run_all.sh --use-sample
