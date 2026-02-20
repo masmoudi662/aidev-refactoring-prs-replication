@@ -1,47 +1,5 @@
-# AI-Generated Refactoring Pull Requests — Replication Package
-
-This repository provides the replication package for our study on **AI-generated refactoring pull requests** in the AIDev dataset.
-
-The study investigates:
-
-- how autonomous coding agents describe refactoring changes,
-- what refactoring transformation patterns they produce,
-- how human reviewers evaluate these pull requests,
-- and why many AI-generated refactorings are not integrated.
 
 ---
-
-## Research Questions
-
-### RQ1 — Refactoring Patterns
-Analyzes refactoring action verbs and transformation patterns used by AI agents and classifies pull requests into:
-
-- Internal quality attributes  
-- External quality attributes  
-- Code smells  
-
-Implementation: `src/rq1/`
-
----
-
-### RQ2 — Review Analysis
-Examines how human reviewers respond to AI-generated refactoring PRs using the Refactoring Review Taxonomy.
-
-Implementation: `src/rq2/`
-
----
-
-## Repository Structure
-
-```
-src/
-  rq1/        # Refactoring pattern mining (RQ1)
-  rq2/        # Review analysis (RQ2)
-
-results/
-  rq1/        # Generated outputs for RQ1
-  rq2/        # Generated outputs for RQ2
-```
 
 ## Dataset
 
@@ -52,25 +10,45 @@ Due to size and licensing constraints, the full dataset is **not redistributed**
 See `data/README.md` for instructions.
 
 ---
----
 
-## Visual Overview
+## Study Design
 
-### Study Design (RQ2)
+### RQ2 Study Pipeline
 
 ![RQ2 Study Pipeline](experiments/rq2/figures/Study_design_RQ2.png)
 
+This figure summarizes the data collection, preparation, and analysis workflow used for RQ2.
+
 ---
 
-### Refactoring Review Taxonomy
+## Experiments
+
+### RQ2 — Refactoring Review Taxonomy
 
 ![Refactoring Review Taxonomy](experiments/rq2/figures/Refactoring%20review%20criteria%20in%20modern%20code%20review%20for%20RQ2.png)
 
----
-
-### Review Actions by Type
+### RQ2 — Review Actions by Type
 
 ![Review Actions](experiments/rq2/figures/chart_review_actions.png)
+
+---
+
+## Discussion & Takeaways
+
+### RQ2 — Frequency of Reviewer Concerns
+
+![Reviewer Concerns Frequency](experiments/rq2/figures/Frequency%20of%20reviewer%20concerns%20by%20category.png)
+
+---
+
+## Reproducibility
+
+See:
+- `REPRODUCIBILITY.md` — pipeline overview  
+- `src/rq1/` — RQ1 implementation  
+- `src/rq2/` — RQ2 implementation  
+
+---
 
 ## Requirements
 
