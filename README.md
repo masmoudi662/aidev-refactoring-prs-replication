@@ -63,7 +63,7 @@ See `data/README.md` for instructions.
 
 ### RQ2 Study Pipeline
 
-![RQ2 Study Pipeline](experiments/rq2/figures/Study_design_RQ2.png)
+![RQ2 Study Pipeline](study_design/rq2/figures/Study_design_RQ2.png)
 
 This figure summarizes the data collection, preparation, and analysis workflow used for RQ2.
 
