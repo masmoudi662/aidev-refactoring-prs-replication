@@ -59,7 +59,11 @@ We use the **AIDev** dataset of AI-generated pull requests.
 
 ## Study Design
 ### RQ1 Study Pipeline
-![RQ1 Study Pipeline](study_design/rq1/figures/Study_Design_RQ1.png)
+
+![RQ1 Study Pipeline](study_design/rq1/figures/Study_Design_RQ1.png)µ
+
+This figure summarizes the data collection, preparation, and analysis workflow used for RQ2.
+
 
 ### RQ2 Study Pipeline
 
