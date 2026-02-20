@@ -53,7 +53,7 @@ discussion/
 
 We use the **AIDev** dataset of AI-generated pull requests.
 ![Dataset](study_design/AIDEV_DATASET.png)
-See `data/README.md` for instructions.
+(https://github.com/SAILResearch/AI_Teammates_in_SE3)
 
 ---
 
