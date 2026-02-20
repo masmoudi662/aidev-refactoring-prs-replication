@@ -60,6 +60,8 @@ See `data/README.md` for instructions.
 ---
 
 ## Study Design
+### RQ1 Study Pipeline
+![RQ1 Study Pipeline](study_design/rq1/Study Design RQ1.png)
 
 ### RQ2 Study Pipeline
 
