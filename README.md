@@ -1,23 +1,20 @@
-# Replication Package — AI Refactoring PRs (AIDev)
+# RQ2 — Review Analysis of AI-Generated Refactoring PRs
 
-This repository provides the replication package for our study on AI-generated refactoring pull requests and their human review outcomes in the **AIDev** dataset.
+This folder contains the implementation and analysis artifacts for **RQ2**, which studies how human reviewers evaluate AI-generated refactoring pull requests.
 
-## What this repo reproduces
-1. Extract refactoring action verbs from PR titles/descriptions to identify transformation patterns.
-2. Classify PRs into:
-   - Internal quality attributes
-   - External quality attributes
-   - Code smells
-3. Code human review feedback using a lightweight Refactoring Review Taxonomy approximation.
-4. Generate summary tables and basic plots.
+## Contents
 
-## Structure
-- `src/` — pipeline scripts
-- `data/` — dataset instructions + sample
-- `scripts/` — one-command runners
-- `results/` — outputs (generated)
+- Scripts for review analysis
+- Taxonomy coding logic
+- Intermediate processing steps
+- Supporting utilities
 
-## Quickstart (sample)
-```bash
-pip install -r env/requirements.txt
-bash scripts/run_all.sh --use-sample
+## Outputs
+
+Final tables and figures for RQ2 are stored under:
+
+results/rq2/
+
+## Notes
+
+The original experimental materials were cleaned and reorganized for reproducibility.
