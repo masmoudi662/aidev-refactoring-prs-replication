@@ -52,16 +52,25 @@ Due to size and licensing constraints, the full dataset is **not redistributed**
 See `data/README.md` for instructions.
 
 ---
+---
 
-## Reproducibility
+## Visual Overview
 
-See:
+### Study Design (RQ2)
 
-- `REPRODUCIBILITY.md` — pipeline overview  
-- `src/rq1/` — RQ1 implementation  
-- `src/rq2/` — RQ2 implementation  
+![RQ2 Study Pipeline](experiments/rq2/figures/Study_design_RQ2.png)
 
 ---
+
+### Refactoring Review Taxonomy
+
+![Refactoring Review Taxonomy](experiments/rq2/figures/Refactoring%20review%20criteria%20in%20modern%20code%20review%20for%20RQ2.png)
+
+---
+
+### Review Actions by Type
+
+![Review Actions](experiments/rq2/figures/chart_review_actions.png)
 
 ## Requirements
 
